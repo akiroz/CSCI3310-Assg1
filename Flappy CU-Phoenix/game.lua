@@ -183,14 +183,14 @@ function scene:create(sceneCreateEvent)
   -- stage setup
   -- ###################################################################################
 
-  createMountainRange(12)
+  createMountainRange(30)
 
   createHighrise(500)
   createTower(800)
   createHighrise(1200)
   createHighrise(1300)
   createTower(1600)
-  createGoal(3800)
+  createGoal(5000)
 
   createPhoenix()
 end
